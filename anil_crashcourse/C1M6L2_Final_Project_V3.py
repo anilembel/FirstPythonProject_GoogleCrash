@@ -13,7 +13,7 @@
 # <br>
 # **- Validating: <font color =green>OK</font>**
 
-# In[7]:
+
 
 
 # Here are all the installs and imports you will need for your word cloud script and uploader widget
@@ -33,13 +33,8 @@ import io
 import sys
 
 
-# Whew! That was a lot. All of the installs and imports for your word cloud script and uploader widget have been completed. 
-# <br><br>
-# **IMPORTANT!** If this was your first time running the above cell containing the installs and imports, you will need save this notebook now. Then under the File menu above,  select Close and Halt. When the notebook has completely shut down, reopen it. This is the only way the necessary changes will take affect.
 # <br><br>
 # To upload your text file, run the following cell that contains all the code for a custom uploader widget. Once you run this cell, a "Browse" button should appear below it. Click this button and navigate the window to locate your saved text file.
-
-# In[8]:
 
 
 # This is the uploader widget
@@ -75,8 +70,7 @@ def calculate_frequencies(file_contents):
     # Here is a list of punctuations and uninteresting words you can use to process your text
     punctuations = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
     uninteresting_words = ["the", "a", "to", "if", "is", "it", "of", "and", "or", "an", "as", "i", "me", "my",     "we", "our", "ours", "you", "your", "yours", "he", "she", "him", "his", "her", "hers", "its", "they", "them",     "their", "what", "which", "who", "whom", "this", "that", "am", "are", "was", "were", "be", "been", "being",     "have", "has", "had", "do", "does", "did", "but", "at", "by", "with", "from", "here", "when", "where", "how",     "all", "any", "both", "each", "few", "more", "some", "such", "no", "nor", "too", "very", "can", "will", "just"]
-    
-    # LEARNER CODE START HERE
+   
     word_count = {}
     final_text = []
     
